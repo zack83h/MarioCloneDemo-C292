@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingEnemy : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     [SerializeField] float speed;
     private float startLocation;
@@ -10,8 +10,7 @@ public class MovingEnemy : MonoBehaviour
     [SerializeField] float distance;
 
     private Vector3 direction = Vector3.right;
-
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +31,9 @@ public class MovingEnemy : MonoBehaviour
         {
             direction = Vector3.right;
         }
+
+
+
 
     }
 }

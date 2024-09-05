@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        Vector3 location = transform.position;
+        Vector3 scale = transform.localScale;
     }
 
     // Update is called once per frame
